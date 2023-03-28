@@ -1,4 +1,4 @@
-public class SecondA {
+public class C2_SecondA {
 
     static int getIndexOf(char str, char[] arr){
         int len=arr.length;
@@ -32,8 +32,12 @@ public class SecondA {
                 }
             }
             //para el caso menor que 27
-            if((reference + y) < dicc.length-1){
-            exit=exit + dicc[reference + y];
+            if((lon) < dicc.length-1){
+                exit=exit + dicc[lon];
+            }
+
+            if((lon) == dicc.length-1){
+                exit = exit + "\s";
             }
         }
 
@@ -57,5 +61,4 @@ public class SecondA {
         System.out.println(cifradoCesar("q  u  i",10));
         System.out.println(cifradoCesar("q",10));
     }
-
-}
+    }
