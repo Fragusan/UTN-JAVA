@@ -41,7 +41,7 @@ public class C2_SecondA {
             }
         }
 
-        return "\u001B[0mLa palabra \u001B[33m\""+ x +"\"\u001B[0m codificada con \u001B[35m"+ y +"\u001B[0m caracteres quedó:\u001B[34m " + exit;
+        return "\u001B[0mLa palabra \u001B[33m\""+ x +"\"\u001B[0m codificada con \u001B[35m"+ y +"\u001B[0m caracteres quedó:\n\u001B[34m" + exit;
     }
 
     public static void main(String[] args){
