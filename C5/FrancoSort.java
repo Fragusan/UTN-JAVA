@@ -1,5 +1,6 @@
 import java.util.Arrays;
 public class FrancoSort {
+
     //Metodo basico de ordenamiento (predeterminado en ascendente)
     public static void sort(int[] arr) {
         sort(arr, true);
@@ -40,5 +41,4 @@ public class FrancoSort {
         arr[i] = arr[j];
         arr[j] = aux;
     }
-
 }
